@@ -288,7 +288,7 @@ if len(args) == 0:
 if len(args) == 1:
   command = WL_REQUEST_COLOR
   bytes = binascii.unhexlify(args[0])
-  
+
   if len(bytes) < 4:
     raise ValueError(('4 bytes required only got ', len(bytes), bytes))
 
@@ -304,7 +304,7 @@ else:
   msec = int(options.msec)
   for arg in args:
     bytes = binascii.unhexlify(arg)
-    
+
     if len(bytes) < 4:
       raise ValueError("4 bytes required only got %s", len(bytes))
 

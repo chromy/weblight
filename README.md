@@ -7,11 +7,11 @@ A USB-controlled LED designed for the
 
 Try the web app
 ===
-Have a WebLight device already?  
-Launch the web app here:  
+Have a WebLight device already?
+Launch the web app here:
 https://sowbug.github.io/weblight/
 
-What does the javascript look like to write color values?  
+What does the javascript look like to write color values?
 Check out [software/src/weblight-card.html](https://github.com/sowbug/weblight/blob/master/software/src/weblight-card.html)
 
 Developing WebLight Devices
